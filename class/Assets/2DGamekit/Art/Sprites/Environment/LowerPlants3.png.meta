@@ -42,7 +42,7 @@ TextureImporter:
       213: 21300024
     second: LowerPlants3_25
   externalObjects: {}
-  serializedVersion: 10
+  serializedVersion: 11
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -62,6 +62,7 @@ TextureImporter:
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -70,12 +71,12 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
-    wrapW: -1
+    wrapW: 0
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -93,9 +94,13 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
@@ -144,8 +149,8 @@ TextureImporter:
         y: 1747
         width: 1486
         height: 293
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: -1000, y: -10}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -430, y: -120.5}
@@ -530,9 +535,9 @@ TextureImporter:
         x: 745
         y: 10
         width: 1280
-        height: 282
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 170
+      alignment: 9
+      pivot: {x: 100, y: -0.1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -589.25024, y: -90.077644}
@@ -555,7 +560,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: eaad42bde707e49438c15c0429c62edd
     internalID: 0
     vertices: []
     indices: 
